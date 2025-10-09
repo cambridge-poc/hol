@@ -1,0 +1,149 @@
+fileVersion: 1
+id: e45b5cbc-58eb-4974-b285-2bcd79eae425
+name: SUPPLIER
+operation:
+  database: ""
+  deployEnabled: true
+  description: Supplier data as defined by TPC-H
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 45d73471-8d35-4241-88ac-7a8e61691a3e
+          stepCounter: e45b5cbc-58eb-4974-b285-2bcd79eae425
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: S_SUPPKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0a3cbbb5-2ddb-4b77-8b8a-08d93a85968b
+          stepCounter: e45b5cbc-58eb-4974-b285-2bcd79eae425
+        config: {}
+        dataType: VARCHAR(25)
+        defaultValue: ""
+        description: ""
+        name: S_NAME
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 351c3235-8d3f-4d73-a180-74cb2ac0f217
+          stepCounter: e45b5cbc-58eb-4974-b285-2bcd79eae425
+        config: {}
+        dataType: VARCHAR(40)
+        defaultValue: ""
+        description: ""
+        name: S_ADDRESS
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 44ccdfe6-f974-4f46-bc18-41ed61aa8b2c
+          stepCounter: e45b5cbc-58eb-4974-b285-2bcd79eae425
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: S_NATIONKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 77f52f54-e1f7-44e1-8686-b946cdc2be46
+          stepCounter: e45b5cbc-58eb-4974-b285-2bcd79eae425
+        config: {}
+        dataType: VARCHAR(15)
+        defaultValue: ""
+        description: ""
+        name: S_PHONE
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2c66d4ab-340a-4175-b717-48f0c3f8aa66
+          stepCounter: e45b5cbc-58eb-4974-b285-2bcd79eae425
+        config: {}
+        dataType: NUMBER(12,2)
+        defaultValue: ""
+        description: ""
+        name: S_ACCTBAL
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4ee382d4-8500-47c3-b9b5-99094db1afc4
+          stepCounter: e45b5cbc-58eb-4974-b285-2bcd79eae425
+        config: {}
+        dataType: VARCHAR(101)
+        defaultValue: ""
+        description: ""
+        name: S_COMMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: SUPPLIER
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
