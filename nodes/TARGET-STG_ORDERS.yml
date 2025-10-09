@@ -154,7 +154,8 @@ operation:
           - locationName: SRC
             nodeName: ORDERS
         join:
-          joinCondition: FROM {{ ref('SRC', 'ORDERS') }} "ORDERS"
+          joinCondition: |
+            FROM {{ ref('SRC', 'ORDERS') }} "ORDERS"
         name: STG_ORDERS
         noLinkRefs: []
   name: STG_ORDERS
