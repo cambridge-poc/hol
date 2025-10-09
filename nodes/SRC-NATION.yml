@@ -1,0 +1,92 @@
+fileVersion: 1
+id: 75db7ce6-ecbe-4b86-a436-0792386c2348
+name: NATION
+operation:
+  database: ""
+  deployEnabled: true
+  description: Nation data as defined by TPC-H
+  locationName: SRC
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7d32d64c-275c-4e8c-ad7b-df814db0d935
+          stepCounter: 75db7ce6-ecbe-4b86-a436-0792386c2348
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: N_NATIONKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 69d4fc3f-e315-45b7-9eed-cc3b1eea014d
+          stepCounter: 75db7ce6-ecbe-4b86-a436-0792386c2348
+        config: {}
+        dataType: VARCHAR(25)
+        defaultValue: ""
+        description: ""
+        name: N_NAME
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: adbc20c1-48c3-4b9f-804f-4ae735bfd2ed
+          stepCounter: 75db7ce6-ecbe-4b86-a436-0792386c2348
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: ""
+        name: N_REGIONKEY
+        nullable: false
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b273c117-ba6e-4eb8-a3e0-912db87dd721
+          stepCounter: 75db7ce6-ecbe-4b86-a436-0792386c2348
+        config: {}
+        dataType: VARCHAR(152)
+        defaultValue: ""
+        description: ""
+        name: N_COMMENT
+        nullable: true
+        primaryKey: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+        uniqueKey: false
+  name: NATION
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
